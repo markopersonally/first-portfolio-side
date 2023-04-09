@@ -1,0 +1,13 @@
+.section-slider{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.section-slider-title {
+	margin-top: 150px;
+	text-align: center;
+	font-size: 35px;
+	text-transform: uppercase;
+	color: #fff;
+}
