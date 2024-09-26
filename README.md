@@ -1,15 +1,19 @@
-# This is my firstportfolio 👨
+# My First Portfolio 👨
 
-I use:
+Welcome to my first portfolio project! This showcases my skills using various web technologies.
 
-- React,
-- CSS,
-- Slider,
-- AOS,
+## Technologies Used
+- **React**
+- **CSS**
+- **Slider**
+- **AOS (Animate On Scroll)**
 
-## How use my code?
+## Live Demo
+Check out the live demo [here](https://my-bc.vercel.app/).
 
-- npm i node,
-- npm i react-router-dom,
-- npm i react-slick,
-- npm i aos,
+## How to Use
+1. Clone the repository.
+2. Install the necessary packages:
+   ```bash
+   npm install
+   npm install react-router-dom react-slick aos
