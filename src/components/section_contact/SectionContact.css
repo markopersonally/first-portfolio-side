@@ -1,40 +1,40 @@
 .section-contact {
-	font-size: 35px;
+  font-size: 35px;
 }
 
 .section-contact-title {
-	padding-top: 50px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 0.5px;
-	color: #fff;
+  padding-top: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #fff;
 }
 
 .contact {
-	padding: 50px 0;
-	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
-	gap: 30px;
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 .contact-box {
-	display: flex;
-	align-items: center;
-	gap: 30px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
 .contact-box-icon {
-	color: #fff;
-	transform: rotate(15deg);
+  color: #fff;
+  transform: rotate(15deg);
 }
 
 .contact-box-text {
-	color: #fff;
-	font-size: 25px;
-	transition: color 0.5s;
+  color: #fff;
+  font-size: 25px;
+  transition: color 0.5s;
 }
 
 .contact-box-text:hover {
-	color: #ffff00;
+  color: #ffff00;
 }

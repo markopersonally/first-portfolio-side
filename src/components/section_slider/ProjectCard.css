@@ -1,51 +1,51 @@
 .slider-cards {
-	height: 500px;
-	margin: 40px 0;
-	position: relative;
+  height: 500px;
+  margin: 40px 0;
+  position: relative;
 }
 
 .box-slider-card {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	width: 500px;
-	height: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
 }
 
 .slider-tittle-overlay {
-	height: 20%;
-	width: 100%;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	background-color: rgba(0, 0, 0, 0.69);
+  height: 20%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.69);
 }
 
 .slider-title {
-	padding: 10px;
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	font-size: 30px;
-	color: #fff;
-	cursor: pointer;
-	transition: color 0.1s;
+  padding: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.1s;
 }
 
 .slider-title:hover {
-	color: #ffff00;
+  color: #ffff00;
 }
 
 .slider-picture {
-	border-top-left-radius: 25%;
-	border-bottom-right-radius: 25%;
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 25%;
 }
 
 @media (max-width: 600px) {
-	.box-slider-card {
-		width: 100%;
-	}
+  .box-slider-card {
+    width: 100%;
+  }
 }

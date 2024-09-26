@@ -1,103 +1,103 @@
 .navigation {
-	position: fixed;
-	width: 100%;
-	height: 100px;
-	z-index: 10;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  z-index: 10;
 }
 
 .navigation-overlay {
-	position: absolute;
-	top: 0;
-	background-color: #080808af;
-	width: 100%;
-	height: 100%;
-	z-index: -1;
+  position: absolute;
+  top: 0;
+  background-color: #080808af;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .navigation-box {
-	margin-top: 20px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 23px;
-	z-index: 10;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 23px;
+  z-index: 10;
 }
 
 .navigation-logo {
-	display: flex;
-	align-items: center;
-	gap: 30px;
-	color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: #fff;
 }
 
 .navigation-logo-img {
-	margin-left: 70px;
-	padding: 10px;
-	width: 30px;
-	height: 30px;
-	border: 3px dashed #fff;
-	border-radius: 50%;
-	transition: color 0.3s, border 2s;
+  margin-left: 70px;
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  border: 3px dashed #fff;
+  border-radius: 50%;
+  transition: color 0.3s, border 2s;
 }
 
 .navigation-logo-img:hover {
-	color: #ffff00;
-	border: 3px dashed #ffff00;
-	cursor: pointer;
+  color: #ffff00;
+  border: 3px dashed #ffff00;
+  cursor: pointer;
 }
 
 .navigation-logo-title {
-	cursor: default;
+  cursor: default;
 }
 
 .menu {
-	display: flex;
-	gap: 50px;
-	margin-right: 70px;
+  display: flex;
+  gap: 50px;
+  margin-right: 70px;
 }
 
 .menu-text {
-	text-transform: uppercase;
-	color: #fff;
-	letter-spacing: 0.5px;
-	border-bottom: 1px solid #fff;
-	transition: color 0.3s, border 2s;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid #fff;
+  transition: color 0.3s, border 2s;
 }
 
 .menu-text:hover {
-	color: #ffff00;
-	border-bottom: 2px dashed #ffff00;
+  color: #ffff00;
+  border-bottom: 2px dashed #ffff00;
 }
 
 .mobile-menu {
-	border: 3px solid blue;
-	margin-right: 20px;
-	display: none;
-	font-size: 35px;
-	color: #fff;
-	background: none;
-	transition: all 0.5s;
+  border: 3px solid blue;
+  margin-right: 20px;
+  display: none;
+  font-size: 35px;
+  color: #fff;
+  background: none;
+  transition: all 0.5s;
 }
 
 .mobile-menu:hover {
-	color: #ffff00;
-	transform: scale(0.9);
+  color: #ffff00;
+  transform: scale(0.9);
 }
 
 @media (max-width: 1200px) {
-	.navigation-logo-title {
-		display: none;
-	}
+  .navigation-logo-title {
+    display: none;
+  }
 }
 
 @media (max-width: 980px) {
-	.menu {
-		display: none;
-	}
-	.mobile-menu {
-		display: flex;
-	}
-	.navigation-logo-img {
-		margin-left: 20px;
-	}
+  .menu {
+    display: none;
+  }
+  .mobile-menu {
+    display: flex;
+  }
+  .navigation-logo-img {
+    margin-left: 20px;
+  }
 }
