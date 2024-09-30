@@ -7,18 +7,18 @@ export const projectsList = [
     id: 1,
     title: "Landing Page",
     img: `${landingpage}`,
-    link: "https://projekt1.mkpage.pl",
+    link: "https://markopersonally.github.io/firstlandingpage/",
   },
   {
     id: 2,
     title: "Validation form",
     img: `${form}`,
-    link: "http://form.mkpage.pl",
+    link: "https://validation-form-snowy.vercel.app/",
   },
   {
     id: 3,
     title: "Crud App",
     img: `${crud}`,
-    link: "http://crudapp.mkpage.pl",
+    link: "https://crud-app-pi-six.vercel.app/",
   },
 ];
